@@ -1,0 +1,25 @@
+{
+  "name": "fastify-server",
+  "version": "1.0.0",
+  "description": "TBD",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Somnath Pathak",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  }
+}
