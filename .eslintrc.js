@@ -14,6 +14,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
+  ignorePatterns: ['**/public/*', '**/vendor/*.js'],
   rules: {
     'prettier/prettier': 'error',
     'class-methods-use-this': 'off',
